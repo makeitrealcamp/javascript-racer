@@ -10,16 +10,30 @@
 	<header>
 		<h1>JS racer</h1>
 	</header>
-	<div class="wrapper" tabindex="1">
+	<div class="wrapper">
+		<div class="startline">
+			
+		</div>
 		<div class="racetrack">
 			<div class="track track1">
-				<div class="car car1" id="player1"></div>
+				<div class="car car1" id="player1">
+					<img src="car1.png">
+				</div>
 			</div>
 			<div class="track track2">
-				<div class="car car2" id="player2"></div>
+				<div class="car car2" id="player2">
+					<img src="car2.png">
+				</div>
 			</div>
 		</div>
+		<div class="finishline">
+			<div>f<br>i<br>n<br>i<br>s<br>h<br></div>
+		</div>
 	</div>
+	<footer>
+		<div class="timer" id="timer"></div>
+		<button class="start-button" id="start-race">race again</button>
+	</footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
 <script type="text/javascript" src="app.js"></script>
 </body>

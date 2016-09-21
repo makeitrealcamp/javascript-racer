@@ -2,25 +2,96 @@
 	box-sizing: border-box;
 }
 
+header {
+	color:#297373;
+}
+
 header, .wrapper {
-	width: 1000px;
+	display: flex;
+	justify-content: center;
 	margin: 0 auto;
 }
 
 .racetrack {
 	height: 200px;
-	background: gray;
+	width: 1000px;
+	background: #88a09e;
 }
 
 .track {
 	height: 100px;
-	border-top: solid 10px limegreen;
-	border-bottom: solid 10px limegreen;
+	border-top: solid 10px #c3f73a;
+	border-bottom: solid 10px #c3f73a;
 }
 
 .car {
-	border: solid 1px red;
-	margin: 15px 0;
-	width: 50px;
-	height: 50px;
+	/*border: solid 1px red;*/
+	margin: 15px -20px;
+	height: 70%;
+	width: 20px;
+}
+
+.car img {
+	height: 80%;
+}
+
+footer {
+	width: 1050px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.timer {
+	min-width: 200px;
+	float: left;
+	font-size: 30px;
+}
+
+.start-button {
+	min-width: 200px;
+	float: right;
+	display: block;
+	background-color:#297373;
+	border: solid 1px #297373; 
+	padding: 5px 10px;
+	color: white;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold; 
+}
+
+/* additional */
+
+.startline {
+	background: ivory;
+	height: 200px;
+	width: 20px;
+
+    background-image:
+      -moz-linear-gradient(45deg, #000 25%, transparent 25%), 
+      -moz-linear-gradient(-45deg, #000 25%, transparent 25%),
+      -moz-linear-gradient(45deg, transparent 75%, #000 75%),
+      -moz-linear-gradient(-45deg, transparent 75%, #000 75%);
+    background-image:
+      -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, #000), color-stop(.25, transparent)), 
+      -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, #000), color-stop(.25, transparent)),
+      -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.75, transparent), color-stop(.75, #000)),
+      -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.75, transparent), color-stop(.75, #000));
+
+    -moz-background-size:10px 10px;
+    background-size:10px 10px;
+    -webkit-background-size:10px 10px; /* override value for shitty webkit */
+   
+    background-position:0 0, 5px 0, 5px -5px, 0px 5px;
+}
+
+.finishline {
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	background-color: black;
+	padding: 40px 10px;
+	width: 30px;
+	height: 200px;
 }
