@@ -1,0 +1,18 @@
+*{ box-sizing: border-box; }
+.racer_table td.inactive2, .racer_table td.inactive1{
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  border:1px solid black;
+}
+
+.racer_table td.active2,.racer_table td.active1{
+  background-color: black;
+  height: 20px;
+  width: 20px;
+  border:1px solid black;
+
+}
+
+
+
