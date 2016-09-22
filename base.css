@@ -1,0 +1,114 @@
+h1{
+    font-family: 'Baloo Bhaina', cursive;
+
+}
+
+.active2{
+    background-color: blue;
+}
+
+#brain_strip{
+    border-collapse: separate;
+    border-color: black;
+}
+
+.racer_table td{
+   border-radius: 10px;
+   border: black 5px solid
+}
+
+.racer_table td {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  display: inline.block
+}
+
+
+.active1 {
+    background-color: red !important;
+}
+
+.active2 {
+    background-color: blue !important;
+}
+
+
+#time{
+font-size: 50px;
+color: red;
+}
+
+.counter{
+    position:absolute;
+    right:0;
+    top:0;
+    font-size:20px;
+    font-weight:bold;
+    color:blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body{
+    font-family: helvetica;
+    margin:0;
+    padding:0;
+    font-size: 20px;
+    background:url(background.png)
+}
+
+h1{
+    background:#4cd964;
+    margin: 0 0 30px 0;
+    padding: 10px;
+    color:#ffffff;
+}
+input{
+    display:block;
+    margin: 10px 0;
+    height: 30px;
+    color:#666;
+}
+
+.contenidos{
+    padding: 30px;
+    background:rgba(0,0,0,.7);
+    border: solid 1px silver;
+    width: 300px;
+    margin:auto;
+    border-radius: 10px;
+    color:#fff;
+}
+label{
+    font-size: 25px
+}
+button{
+    padding: 8px;
+    width:265px;
+}
+
+#resultadoDelCambio{
+    padding: 30px;
+    background:rgba(255,0,0,.7);
+    border: solid 1px silver;
+    width: 300px;
+    margin:auto;
+    border-radius: 10px;
+    color:#fff;
+    text-align:center;   
+}*/
